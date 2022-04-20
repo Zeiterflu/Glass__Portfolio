@@ -1,0 +1,10 @@
+/* line 1, ../../sass/components/header.scss */
+header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff00d7;
+  background: linear-gradient(48deg, rgba(255, 0, 215, 0.6) 0%, rgba(0, 212, 255, 0.6) 100%);
+}

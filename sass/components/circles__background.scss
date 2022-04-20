@@ -1,0 +1,63 @@
+.circle__1 {
+	z-index: 0;
+	position: absolute;
+
+	top: 50px;
+	left: 50px;
+
+	padding: 0;
+	margin: 0;
+
+	width: 400px;
+	height: 400px;
+
+	background: rgb(255, 255, 255);
+	background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.8) 100%);
+
+	border-radius: 50%;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+
+	animation: 3s infinite alternate linear slidein1;
+}
+
+.circle__2 {
+	z-index: 0;
+	position: absolute;
+
+	top: 330px;
+	left: 1300px;
+
+	padding: 0;
+	margin: 0;
+
+	width: 600px;
+	height: 600px;
+
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.8) 100%);
+
+	border-radius: 50%;
+	box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
+
+	animation: 5s infinite alternate linear slidein2;
+}
+
+@keyframes slidein1 {
+  from {
+    top: 50px;
+  }
+
+  to {
+    top: 150px;
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    top: 330px;
+  }
+
+  to {
+    top: 130px;
+  }
+}
